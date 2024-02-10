@@ -1,0 +1,74 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movies div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+  }
+  
+  .movies div img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-details {
+    margin-top: 20px;
+  }
+  
+  .movie-details img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .favorite-movies {
+    margin-top: 20px;
+  }
+  
+  .favorite-movies div {
+    margin: 10px;
+  }
+  
+  .favorite-movies div button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .favorite-movies div button:hover {
+    background-color: #c82333;
+  }
+  
